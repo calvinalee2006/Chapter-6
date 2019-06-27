@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <title>Tables, Chapter 6</title>
+</head>
+<body>
+<h3>What's A Table?</h3>
+<p>A table represents information in a grid format. Examples include finacial reports, TV scheduales, and sports results.</p>
+<ul>
+    <li>Grids allow us to understanc complex data by referencing information on two axes.</li>
+    <li>Each block in the grid is referred to as a <b>table cell</b>. In HTML a table is written out row by row.</li>
+</ul>
+<h3> Basic table structure</h3>
+<p> < table > - This element is used to create a table. The contents of the table are written out row by row.  </p>
+<p> < tr > (table row) - You indicate the start of each row by using the opening < tr > tag. It is followed by one or more < td > elements. </p>
+<p> < td > (table data)- Each cell of a table is represented by using a < td > element.</p>
+<p><b>EX.</b><br>
+< table ><br>
+    < tr ><br>
+        < td > 15 < / td ><br>
+        < td > 15 < / td ><br>
+        < td > 30 < / td ><br>
+    < / tr ><br>
+    < tr ><br>
+        < td > 45 < / td ><br>
+        < td > 60 < / td ><br>
+        < td > 45 < / td ><br>
+    < / tr ><br>
+< / table ><br>
+</p>
+
+<h3>Table Headings</h3>
+<p> < th >(Table heading) - This element is used like the table data element but its purpose is to represent the heading for either a column or a row.</p>
+<p>Even if a cell has no content, you should still use a table data or table heading element to represent the presence of an empty cell otherwise the table will not render correctly.</p>
+<p> <b>EX.</b>
+
+</p>
+</body>
+</html>
